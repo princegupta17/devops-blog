@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: kavinduchamiran/cloudl-server:v1
+          image: 445567118310.dkr.ecr.us-east-2.amazonaws.com/backend:latest
           ports:
             - containerPort: 8000
               name: nodejs-port

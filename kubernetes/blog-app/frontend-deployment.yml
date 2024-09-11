@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: kavinduchamiran/cloudl-client:v1
+          image: 445567118310.dkr.ecr.us-east-2.amazonaws.com/blogapp:latest
           ports:
             - containerPort: 5173
               name: http-port
